@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Discord Canary
+GenericName=Internet Messenger
+Comment=Free Voice and Text Chat for Gamers
+Icon=/opt/discord-canary/discord.png
+Exec=/usr/bin/DiscordCanary
+Path=/opt/discord-canary
+StartupNotify=true
+StartupWMClass=discord
+Categories=Network;InstantMessaging;
