@@ -4,7 +4,7 @@
 %define apps_dir    /usr/share/applications
 
 Name:               discord-canary
-Version:            0.0.52
+Version:            0.0.53
 Release:            1%{?dist}
 Summary:            Free Voice and Text Chat for Gamers
 Group:              Applications/Internet
@@ -55,10 +55,13 @@ sh postinst.sh
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
-* Fri Jul 6 2018 Kitsune Solar <kitsune.solar@gmail.com> - 0.0.52-1
+* Fri Jul 11 2018 Kitsune Solar <kitsune.solar@gmail.com> - 0.0.53-1
+- Update to discord-canary-0.0.53
+
+* Fri Jul 06 2018 Kitsune Solar <kitsune.solar@gmail.com> - 0.0.52-1
 - Update to discord-canary-0.0.52
 
-* Tue Jan 9 2018 Kitsune Solar <kitsune.solar@gmail.com> - 0.0.45-1
+* Tue Jan 09 2018 Kitsune Solar <kitsune.solar@gmail.com> - 0.0.45-1
 - Update to discord-canary-0.0.45
 
 * Fri Dec 22 2017 Kitsune Solar <kitsune.solar@gmail.com> - 0.0.44-1
