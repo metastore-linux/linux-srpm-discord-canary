@@ -3,20 +3,20 @@
 %define install_dir /opt/discord-canary
 %define apps_dir    /usr/share/applications
 
-Name:               discord-canary
-Version:            0.0.53
-Release:            1%{?dist}
-Summary:            Free Voice and Text Chat for Gamers
-Group:              Applications/Internet
-License:            Proprietary
-URL:                https://discordapp.com/
+Name:                   discord-canary
+Version:                0.0.53
+Release:                1%{?dist}
+Summary:                Free Voice and Text Chat for Gamers
+Group:                  Applications/Internet
+License:                Proprietary
+URL:                    https://discordapp.com/
 
-Source0:            https://discordapp.com/api/download/canary?platform=linux&format=tar.gz#/%{name}-%{version}.tar.gz
-Source1:            discord.desktop
+Source0:                https://discordapp.com/api/download/canary?platform=linux&format=tar.gz#/%{name}-%{version}.tar.gz
+Source1:                discord.desktop
 
-BuildRequires:      libXScrnSaver libcxx
-Requires:           libXScrnSaver libcxx
-AutoReqProv:        no
+BuildRequires:          libXScrnSaver libcxx
+Requires:               libXScrnSaver libcxx
+AutoReqProv:            no
 
 %description
 All-in-one voice and text chat for gamers that’s free, secure, and works on both your desktop and phone.
